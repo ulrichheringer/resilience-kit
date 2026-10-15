@@ -1,5 +1,6 @@
 # resilience-kit
 
-HTTP middleware for a small circuit breaker and a concurrent request limit.
+HTTP middleware for Go servers. It includes a circuit breaker for failing upstreams and a concurrency limit that sheds excess requests.
 
-Install the library with go get github.com/ulrichheringer/resilience-kit/resilience. Run the sample server with go run ./cmd/server; try /work and /work?fail=1.
+Install with go get github.com/ulrichheringer/resilience-kit/resilience.
+Run the example server with go run ./cmd/server, then try /work and /work?fail=1.
